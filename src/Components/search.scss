@@ -1,0 +1,15 @@
+.search-c {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    input {
+       height: 100%; 
+       width: 70%;
+       padding: 0 10px;
+    }
+    button {
+        height: 100%; 
+        padding: 0 10px;  
+    }
+}

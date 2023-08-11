@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  width: 94%;
+  height: 94%;
+  max-width: 600px;
+}
+.spinner {
+  margin-top: calc(50vh - 60px);
+}
+
+.users-g-c {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start ;
+  align-items: center;
+  gap: 10px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  height: calc(100% - 40px);
+  padding: 10px 0;
+
+  &.disabled {
+   opacity: .3;
+  }
+}
